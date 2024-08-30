@@ -378,3 +378,22 @@ INSERT INTO "PERSON" ("EMAIL", "UNAME") VALUES (?, ?) [23502-224]
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 *[INFO ]-- HikariPool-1 - Shutdown initiated...--
 *[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[INFO ]-- Starting Sb101Application using Java 21.0.2 with PID 8024 (D:\baraneetharan\myworks\BatchAug2024\springboot\sb101\target\classes started by baraneetharan.r in D:\baraneetharan\myworks\BatchAug2024\springboot\sb101)--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet engine: [Apache Tomcat/10.1.28]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb101Application in 2.871 seconds (process running for 3.283)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[INFO ]-- Starting Sb101ApplicationTests using Java 21.0.2 with PID 27288 (started by baraneetharan.r in D:\baraneetharan\myworks\BatchAug2024\springboot\sb101)--
+*[INFO ]-- No active profile set, falling back to 1 default profile: "default"--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/sb101 user=SA--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Started Sb101ApplicationTests in 7.106 seconds (process running for 12.401)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
