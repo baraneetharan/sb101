@@ -22,7 +22,7 @@ jobs:
     - name: Archive Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: sportsacademy-artifact
+        name: sb101-artifact
         path: target/          
   
   sonar:
