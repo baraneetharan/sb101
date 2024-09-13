@@ -25,7 +25,6 @@ import com.kgisl.sb101.service.PersonService;
  */
 
 @ExtendWith(MockitoExtension.class)
-
 public class PersonControllerTest {
   @Mock
   private PersonService personService;
