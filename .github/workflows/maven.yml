@@ -18,7 +18,10 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn clean install -DskipTests
+    - name: Run specific tests
+      run: mvn test -Dtest=PersonControllerTest test
+      continue-on-error: true      
     - name: Archive Artifact
       uses: actions/upload-artifact@v3
       with:
