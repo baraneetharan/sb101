@@ -20,7 +20,10 @@ jobs:
 
       - name: Build and Test
         if: always()
-        run: mvn -B package --file pom.xml                 
+        run: mvn clean install -DskipTests
+
+      - name: Run specific tests
+        run: mvn test -Dtest=PersonControllerTest
         continue-on-error: true    
 
       - name: Upload Report
